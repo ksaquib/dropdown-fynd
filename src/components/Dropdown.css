@@ -1,0 +1,58 @@
+.main-select {
+    margin-bottom: 12px;
+  }
+  select {
+    width: 180px;
+    padding: 5px 35px 5px 9px;
+    font-size: 16px;
+    border: 2px solid rgb(204, 202, 202);
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    appearance: none;
+    border-radius: 3px;
+    color: rgb(83, 81, 81);
+    font-weight: 500;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  }
+  input[type="text"] {
+    width: 180px;
+    height: 40px;
+    padding: 1px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 2px solid rgb(204, 202, 202);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  }
+  input[type="text"]:focus {
+    border: 1px solid #ccc;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: rgb(184, 180, 180);
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  :-ms-input-placeholder {
+    /* Internet Explorer */
+    color: rgb(83, 81, 81);
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .heading {
+    margin-bottom: 5px !important;
+    font-weight: 700;
+    color:rgb(43, 42, 42);
+  }
+  
